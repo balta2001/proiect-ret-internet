@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicii Internet - Evoluția Internetului</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollreveal/4.0.6/scrollreveal.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Servicii Internet și Evoluția acestora</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#retea">Rețeaua Internet</a></li>
+                <li><a href="#servicii">Servicii Internet</a></li>
+                <li><a href="#evolutie">Evoluția Internetului</a></li>
+                <li><a href="#impact">Impactul Internetului</a></li>
+                <li><a href="#disponibilitate">Disponibilitate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="retea">
+        <h2>Rețeaua Internet</h2>
+        <p>Internetul este o rețea globală de calculatoare ce facilitează schimbul rapid de informații, permitându-le utilizatorilor să acceseze informații din întreaga lume. Folosind protocoale standardizate, internetul permite comunicarea între calculatoare, servere și diverse dispozitive. Începând cu ARPANET în anii '60 și până în prezent, rețeaua globală s-a extins pentru a include sute de milioane de utilizatori.</p>
+        <img src="retea.jpg" alt="Rețea Internet" class="dynamic-img">
+    </section>
+
+    <section id="servicii">
+        <h2>Servicii Internet</h2>
+        <div class="service-grid">
+            <div class="service">
+                <h3>E-mail</h3>
+                <p>E-mailul este unul dintre cele mai utilizate servicii pe internet, oferind utilizatorilor posibilitatea de a trimite mesaje rapide și fișiere la nivel global.</p>
+            </div>
+            <div class="service">
+                <h3>Forumuri</h3>
+                <p>Forumurile sunt platforme online unde utilizatorii pot discuta despre diverse subiecte, împărtăși informații și cere ajutor într-o comunitate virtuală.</p>
+            </div>
+            <div class="service">
+                <h3>Chat</h3>
+                <p>Platformele de chat permit comunicarea instantanee între utilizatori, având aplicații variate de la mesagerie privată la conversații de grup.</p>
+            </div>
+            <div class="service">
+                <h3>Rețele Sociale</h3>
+                <p>Rețelele sociale au revoluționat comunicarea, facilitând interacțiuni între oameni din întreaga lume. Exemple populare includ Facebook, Instagram și Twitter.</p>
+            </div>
+        </div>
+        <img src="ret.jpg" alt="Servicii Internet" class="dynamic-img">
+    </section>
+
+    <section id="evolutie">
+        <h2>Evoluția Internetului</h2>
+        <div class="timeline">
+            <div class="event">
+                <h3>1980 - 1990</h3>
+                <p>Începuturile internetului, folosit doar de cercetători și instituții guvernamentale. A fost lansată rețeaua ARPANET, care stă la baza internetului modern.</p>
+            </div>
+            <div class="event">
+                <h3>1990 - 2000</h3>
+                <p>Aplicațiile web și browserele au permis accesul publicului larg la internet. Primele platforme de comerț online au apărut, iar utilizarea rețelelor sociale a început.</p>
+            </div>
+            <div class="event">
+                <h3>2000 - Prezent</h3>
+                <p>Internetul a devenit un instrument indispensabil în viața cotidiană, cu un impact semnificativ asupra educației, afacerilor și comunicării.</p>
+            </div>
+        </div>
+        <img src="infor.jpg" alt="Evoluția Internetului" class="dynamic-img">
+    </section>
+
+    <section id="impact">
+        <h2>Impactul Internetului</h2>
+        <p>Internetul a avut un impact profund asupra multor aspecte ale vieții moderne. În educație, a deschis accesul la cursuri online și resurse educaționale, permițând învățarea la distanță. În afaceri, a revoluționat comerțul, permițând dezvoltarea comerțului electronic. De asemenea, în viața personală, internetul a facilitat comunicarea instantanee prin e-mail, mesagerie și apeluri video.</p>
+        <img src="imoact.jpg" alt="Impactul Internetului" class="dynamic-img">
+    </section>
+
+    <section id="disponibilitate">
+        <h2>Disponibilitatea Serviciilor Internet</h2>
+        <p>Accesul la internet variază semnificativ în funcție de locație. În zonele urbane, internetul de mare viteză este disponibil aproape peste tot, însă în multe zone rurale există încă provocări legate de accesul rapid și de calitate. Internetul de mare viteză, 4G și 5G sunt disponibile în multe orașe, în timp ce zonele izolate pot depinde de conexiuni mai lente, cum ar fi DSL.</p>
+        <img src="disponibil.jpg" alt="Disponibilitate Internet" class="dynamic-img">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Servicii Internet. Toate drepturile rezervate.</p>
+    </footer>
+
+    <script>
+        // Animare cu ScrollReveal
+        ScrollReveal().reveal('.dynamic-img', { delay: 500, scale: 0.85, duration: 1500 });
+        ScrollReveal().reveal('.service', { interval: 200, origin: 'left', distance: '100px', duration: 1500 });
+        ScrollReveal().reveal('.event', { delay: 300, origin: 'bottom', distance: '50px', duration: 1000 });
+    </script>
+</body>
+</html>
